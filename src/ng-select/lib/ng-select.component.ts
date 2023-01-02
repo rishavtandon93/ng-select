@@ -257,6 +257,7 @@ export class NgSelectComponent implements OnDestroy, OnChanges, OnInit, AfterVie
     ngOnInit() {
         this._handleKeyPresses();
         this._setInputAttributes();
+        console.log('Hi');
     }
 
     ngOnChanges(changes: SimpleChanges) {
